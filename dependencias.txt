@@ -1,0 +1,8 @@
+instale:
+pip install fastapi uvicorn pysqlite
+
+para subir o banco execute
+python3 run main.py ou execute o arquivo direto no vscode
+
+para subir o servidor 
+uvicorn main:app --reload
